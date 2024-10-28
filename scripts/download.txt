@@ -1,0 +1,53 @@
+# Stable Cascade
+
+#https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors
+#  dir=models/checkpoints
+#  out=stable_cascade_stage_c.safetensors
+#https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors
+#  dir=models/checkpoints
+#  out=stable_cascade_stage_b.safetensors
+#https://huggingface.co/stabilityai/stable-cascade/resolve/main/controlnet/canny.safetensors
+#  dir=models/controlnet
+#  out=stable_cascade_canny.safetensors
+#https://huggingface.co/stabilityai/stable-cascade/resolve/main/controlnet/inpainting.safetensors
+#  dir=models/controlnet
+#  out=stable_cascade_inpainting.safetensors
+#https://huggingface.co/stabilityai/stable-cascade/resolve/main/controlnet/super_resolution.safetensors
+#  dir=models/controlnet
+#  out=stable_cascade_super_resolution.safetensors
+
+# VAE
+
+https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
+  dir=models/vae
+  out=vae-ft-mse-840000-ema-pruned.safetensors
+
+# Upscale
+
+https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth
+  dir=models/upscale_models
+  out=RealESRGAN_x4plus.pth
+https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth
+  dir=models/upscale_models
+  out=RealESRGAN_x4plus_anime_6B.pth
+
+# Embeddings
+
+https://huggingface.co/datasets/gsdf/EasyNegative/resolve/main/EasyNegative.safetensors
+  dir=models/embeddings
+  out=easynegative.safetensors
+https://huggingface.co/lenML/DeepNegative/resolve/main/NG_DeepNegative_V1_75T.pt
+  dir=models/embeddings
+  out=ng_deepnegative_v1_75t.pt
+
+# unCLIP
+
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.pth
+  dir=models/controlnet
+  out=control_v11f1p_sd15_depth.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth
+  dir=models/controlnet
+  out=control_v11p_sd15_canny.pth
+https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth
+  dir=models/controlnet
+  out=control_v11p_sd15_openpose.pth
